@@ -7,6 +7,20 @@ Custom note templates for practicing Chinese character writing on the reMarkable
 
 Both templates tile a single repeating cell across the page and work in both portrait and landscape.
 
+## Table of Contents
+
+- [Previews](#previews)
+- [Installation](#installation)
+- [License](#license)
+
+## Previews
+
+### Tian Zi Ge
+![Tian Zi Ge](screenshots/tianzige.png)
+
+### Mi Zi Ge
+![Mi Zi Ge](screenshots/mizige.png)
+
 ## Installation
 
 Tested on a reMarkable 2 running software version **3.27.10**.
@@ -15,7 +29,7 @@ Tested on a reMarkable 2 running software version **3.27.10**.
 2. **Copy the template files** to the templates directory:
 
    ```bash
-   scp tianzige.template mizige.template root@<remarkable-ip>:/usr/share/remarkable/templates/
+   scp templates/tianzige.template templates/mizige.template root@<remarkable-ip>:/usr/share/remarkable/templates/
    ```
 
 3. **Update `templates.json`** on the device. Open `/usr/share/remarkable/templates/templates.json` in vim and merge in the two entries from [`templates.json`](templates.json), keeping the `templates` array valid JSON.
