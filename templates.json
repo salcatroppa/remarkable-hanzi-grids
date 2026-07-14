@@ -1,0 +1,17 @@
+{
+  "templates": [
+    {
+      "name": "Tian Zi Ge",
+      "filename": "tianzige",
+      "iconCode": "\ue99d",
+      "categories": ["Language", "Grids"]
+    },
+    {
+      "name": "Mi Zi Ge",
+      "filename": "mizige",
+      "iconCode": "\ue99d",
+      "categories": ["Language", "Grids"]
+    }
+  ]
+}
+

@@ -1,0 +1,106 @@
+{
+  "name": "Mi Zi Ge",
+  "author": "Salvatore Catroppa",
+  "templateVersion": "1.0.0",
+  "formatVersion": 1,
+  "categories": [
+    "Language"
+  ],
+  "orientation": "landscape",
+  "constants": [
+    {
+      "mobileMaxWidth": 1000
+    },
+    {
+      "mobileOffsetY": 160
+    },
+    {
+      "magicOffsetY": 177.8
+    },
+    {
+      "cellSize": 78.7
+    },
+    {
+      "halfCell": "cellSize / 2"
+    }
+  ],
+  "items": [
+    {
+      "type": "group",
+      "boundingBox": {
+        "x": 0,
+        "y": 0,
+        "width": "cellSize",
+        "height": "cellSize"
+      },
+      "repeat": {
+        "rows": "down",
+        "columns": "right"
+      },
+      "children": [
+        {
+          "type": "path",
+          "data": [
+            "M",
+            0,
+            0,
+            "L",
+            "cellSize",
+            0,
+            "L",
+            "cellSize",
+            "cellSize",
+            "L",
+            0,
+            "cellSize",
+            "Z"
+          ]
+        },
+        {
+          "type": "path",
+          "data": [
+            "M",
+            "halfCell",
+            0,
+            "L",
+            "halfCell",
+            "cellSize"
+          ]
+        },
+        {
+          "type": "path",
+          "data": [
+            "M",
+            0,
+            "halfCell",
+            "L",
+            "cellSize",
+            "halfCell"
+          ]
+        },
+        {
+          "type": "path",
+          "data": [
+            "M",
+            0,
+            0,
+            "L",
+            "cellSize",
+            "cellSize"
+          ]
+        },
+        {
+          "type": "path",
+          "data": [
+            "M",
+            "cellSize",
+            0,
+            "L",
+            0,
+            "cellSize"
+          ]
+        }
+      ]
+    }
+  ]
+}
